@@ -256,8 +256,6 @@ function actualizarLista() {
                 
                 divTabla.appendChild(crearTabla(datos));
 
-
-
                 listaAnuncio = datos;
                 console.log(datos);
 
@@ -310,8 +308,80 @@ function crearSpinner() {
 };
 
 
+let btnFiltrar = document.getElementById('btnfiltrar');
+let btnFiltrarAl = document.getElementById('btnfiltrarAl');
+let btnFiltrarTodo = document.getElementById('btnfiltrarTodo');
+let precio = document.getElementById('txt_precio');
+
+btnFiltrar.addEventListener('click', function (e) {
+
+    var venta = filtroVenta(listaAnuncio);
+    divTabla.innerHTML="";
+    
+    divTabla.appendChild(crearTabla(venta));
+    
+
+})
+btnFiltrarTodo.addEventListener('click', function (e) {
+
+    
+    divTabla.innerHTML="";
+    
+    divTabla.appendChild(crearTabla(listaAnuncio));
+    precio.value='n/a';
+    
+
+})
+
+btnFiltrarAl.addEventListener('click', function (e) {
+
+    var alquiler = filtroAl(listaAnuncio);
+    divTabla.innerHTML="";
+    
+    divTabla.appendChild(crearTabla(alquiler));
+    
+
+})
+
+function filtroVenta( lista ) {
+
+    const venta = lista.filter( x => x.transaccion === 'Venta' );
+    
+    venta.forEach(element => {
+
+        
+        var total = venta.length;
+        var aux = element.precio;
+        var suma = aux + element.precio;
+        
+        precio.value= aux / total;
+    })
+    console.log(venta);
+    
+    return venta;
+    // listaAnuncio=venta;   
+
+}
 
 
+function filtroAl( lista ) {
+
+    const alquiler = lista.filter( x => x.transaccion === 'Alquiler' );
+    alquiler.forEach(element => {
+
+        
+        var total = alquiler.length;
+        var aux = element.precio;
+        var suma = aux + element.precio;
+        
+        precio.value= aux / total;
+    })
+    
+    console.log(alquiler);
+    return alquiler;
+    // listaAnuncio=alquiler;   
+
+}
 
 
 

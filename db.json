@@ -156,9 +156,9 @@
       "descripcion": "Altima",
       "precio": "293.12",
       "transaccion": "Venta",
-      "num_puertas": 5,
-      "num_kms": "359",
-      "potencia": 395
+      "num_puertas": "5",
+      "num_KMs": "3",
+      "potencia": "395"
     },
     {
       "id": 17,
@@ -215,16 +215,6 @@
       "titulo": "Corolla ",
       "descripcion": "Auto casi nuevo",
       "precio": "3000",
-      "transaccion": "Venta",
-      "num_puertas": "2",
-      "num_KMs": "2",
-      "potencia": "2"
-    },
-    {
-      "id": 23,
-      "titulo": "Prueba",
-      "descripcion": "TTexas",
-      "precio": "450000",
       "transaccion": "Venta",
       "num_puertas": "2",
       "num_KMs": "2",

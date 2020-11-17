@@ -22,7 +22,7 @@ function crearCabecera(item){
 
     for (const key in item) {
         const th = document.createElement('th');
-        
+                
         const texto = document.createTextNode(key);
         th.appendChild(texto);
 
