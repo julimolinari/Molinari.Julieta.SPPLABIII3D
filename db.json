@@ -1,0 +1,234 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "titulo": "Dodge",
+      "descripcion": "Grand Caravan",
+      "precio": "410.42",
+      "transaccion": "Venta",
+      "num_puertas": "4",
+      "num_KMs": "419",
+      "potencia": "215"
+    },
+    {
+      "id": 2,
+      "titulo": "Chevrolet",
+      "descripcion": "Monte Carlo",
+      "precio": "244.56",
+      "transaccion": "Alquiler",
+      "num_puertas": "6",
+      "num_KMs": "175",
+      "potencia": "201"
+    },
+    {
+      "id": 3,
+      "titulo": "Ford",
+      "descripcion": "Mustang",
+      "precio": "193.98",
+      "transaccion": "Venta",
+      "num_puertas": "6",
+      "num_KMs": "104",
+      "potencia": "236"
+    },
+    {
+      "id": 4,
+      "titulo": "Subaru",
+      "descripcion": "Outback",
+      "precio": "361.31",
+      "transaccion": "Venta",
+      "num_puertas": "2",
+      "num_KMs": "102",
+      "potencia": "490"
+    },
+    {
+      "id": 5,
+      "titulo": "Hyundai",
+      "descripcion": "Santa Fe",
+      "precio": "278.22",
+      "transaccion": "Alquiler",
+      "num_puertas": "2",
+      "num_KMs": "404",
+      "potencia": "448"
+    },
+    {
+      "id": 6,
+      "titulo": "Plymouth",
+      "descripcion": "Grand Voyager",
+      "precio": "136.00",
+      "transaccion": "Venta",
+      "num_puertas": "1",
+      "num_KMs": "170",
+      "potencia": "268"
+    },
+    {
+      "id": 7,
+      "titulo": "Jeep",
+      "descripcion": "Cherokee",
+      "precio": "520.47",
+      "transaccion": "Alquiler",
+      "num_puertas": 6,
+      "num_kms": "170",
+      "potencia": 577
+    },
+    {
+      "id": 8,
+      "titulo": "Audi",
+      "descripcion": "Q5",
+      "precio": "204.30",
+      "transaccion": "Alquiler",
+      "num_puertas": 1,
+      "num_kms": "418",
+      "potencia": 235
+    },
+    {
+      "id": 9,
+      "titulo": "Nissan",
+      "descripcion": "GT-R",
+      "precio": "394.55",
+      "transaccion": "Alquiler",
+      "num_puertas": 1,
+      "num_kms": "192",
+      "potencia": 552
+    },
+    {
+      "id": 10,
+      "titulo": "Toyota",
+      "descripcion": "Land Cruiser",
+      "precio": "501.99",
+      "transaccion": "Venta",
+      "num_puertas": 3,
+      "num_kms": "299",
+      "potencia": 389
+    },
+    {
+      "id": 11,
+      "titulo": "Dodge",
+      "descripcion": "Intrepid",
+      "precio": "118.89",
+      "transaccion": "Alquiler",
+      "num_puertas": "3",
+      "num_KMs": "77",
+      "potencia": "434"
+    },
+    {
+      "id": 12,
+      "titulo": "Mitsubishi",
+      "descripcion": "Montero Sport",
+      "precio": "310.63",
+      "transaccion": "Venta",
+      "num_puertas": 1,
+      "num_kms": "467",
+      "potencia": 238
+    },
+    {
+      "id": 13,
+      "titulo": "Toyota",
+      "descripcion": "4Runner",
+      "precio": "535.91",
+      "transaccion": "Venta",
+      "num_puertas": 5,
+      "num_kms": "170",
+      "potencia": 339
+    },
+    {
+      "id": 14,
+      "titulo": "Plymouth",
+      "descripcion": "Grand Voyager",
+      "precio": "153.40",
+      "transaccion": "Venta",
+      "num_puertas": "4",
+      "num_KMs": "800",
+      "potencia": "559"
+    },
+    {
+      "id": 15,
+      "titulo": "Audi",
+      "descripcion": "TTrendig",
+      "precio": "206.31",
+      "transaccion": "Alquiler",
+      "num_puertas": "5",
+      "num_KMs": "120",
+      "potencia": "266"
+    },
+    {
+      "id": 16,
+      "titulo": "Nissan",
+      "descripcion": "Altima",
+      "precio": "293.12",
+      "transaccion": "Venta",
+      "num_puertas": 5,
+      "num_kms": "359",
+      "potencia": 395
+    },
+    {
+      "id": 17,
+      "titulo": "Volvo",
+      "descripcion": "S80",
+      "precio": "139.79",
+      "transaccion": "Venta",
+      "num_puertas": 2,
+      "num_kms": "88",
+      "potencia": 584
+    },
+    {
+      "id": 18,
+      "titulo": "Ford",
+      "descripcion": "E350",
+      "precio": "268.57",
+      "transaccion": "Venta",
+      "num_puertas": 5,
+      "num_kms": "148",
+      "potencia": 283
+    },
+    {
+      "id": 19,
+      "titulo": "GMC",
+      "descripcion": "1500",
+      "precio": "142.71",
+      "transaccion": "Venta",
+      "num_puertas": 3,
+      "num_kms": "160",
+      "potencia": 535
+    },
+    {
+      "id": 20,
+      "titulo": "Audi",
+      "descripcion": "Auto casi nuevo",
+      "precio": "450000",
+      "transaccion": "Venta",
+      "num_puertas": "1",
+      "num_KMs": "1",
+      "potencia": "1"
+    },
+    {
+      "id": 21,
+      "titulo": "Fiat",
+      "descripcion": "venta auto usado",
+      "precio": "3000",
+      "transaccion": "Venta",
+      "num_puertas": "1",
+      "num_KMs": "1",
+      "potencia": "1"
+    },
+    {
+      "id": 22,
+      "titulo": "Corolla ",
+      "descripcion": "Auto casi nuevo",
+      "precio": "3000",
+      "transaccion": "Venta",
+      "num_puertas": "2",
+      "num_KMs": "2",
+      "potencia": "2"
+    },
+    {
+      "id": 23,
+      "titulo": "Prueba",
+      "descripcion": "TTexas",
+      "precio": "450000",
+      "transaccion": "Venta",
+      "num_puertas": "2",
+      "num_KMs": "2",
+      "potencia": "2"
+    }
+  ]
+}
